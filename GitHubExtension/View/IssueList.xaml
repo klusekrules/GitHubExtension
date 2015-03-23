@@ -201,6 +201,9 @@
                 <Style TargetType="ListBoxItem">
                     <Setter Property="HorizontalContentAlignment"
                    Value="Stretch" />
+                    <Style.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="#565656"/>
+                    </Style.Resources>
                 </Style>
             </ListBox.ItemContainerStyle>
             <ListBox.ItemTemplate>
